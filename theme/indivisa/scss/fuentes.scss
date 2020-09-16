@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'IndivisaDisplaySerif-ThinItalic';
+    src: url([[font:theme|IndivisaDisplaySerif-ThinItalic.eot]]);
+    src: url([[font:theme|IndivisaDisplaySerif-ThinItalic.eot]]) format('embedded-opentype'),
+        url([[font:theme|IndivisaDisplaySerif-ThinItalic.woff]]) format('woff'),
+        url([[font:theme|IndivisaDisplaySerif-ThinItalic.woff2]]) format('woff2'),
+        url([[font:theme|IndivisaDisplaySerif-ThinItalic.ttf]]) format('truetype'),
+        url([[font:theme|IndivisaDisplaySerif-ThinItalic.svg]]) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IndivisaTextSans-Bold';
+    src: url([[font:theme|IndivisaTextSans-Bold.eot]]);
+    src: url([[font:theme|IndivisaTextSans-Bold.eot]]) format('embedded-opentype'),
+        url([[font:theme|IndivisaTextSans-Bold.woff]]) format('woff'),
+        url([[font:theme|IndivisaTextSans-Bold.woff2]]) format('woff2'),
+        url([[font:theme|IndivisaTextSans-Bold.ttf]]) format('truetype'),
+        url([[font:theme|IndivisaTextSans-Bold.svg]]) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'IndivisaTextSans-Regular';
+src: url([[font:theme|IndivisaTextSans-Regular.eot]]);
+src: url([[font:theme|IndivisaTextSans-Regular.eot]]) format('embedded-opentype'),
+     url([[font:theme|IndivisaTextSans-Regular.woff]]) format('woff'),
+     url([[font:theme|IndivisaTextSans-Regular.woff2]]) format('woff2'),
+     url([[font:theme|IndivisaTextSans-Regular.ttf]]) format('truetype'),
+     url([[font:theme|IndivisaTextSans-Regular.svg]]) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'IndivisaTextSans-RegularItalic';
+    src: url([[font:theme|IndivisaTextSans-RegularItalic.eot]]);
+    src: url([[font:theme|IndivisaTextSans-RegularItalic.eot]]) format('embedded-opentype'),
+        url([[font:theme|IndivisaTextSans-RegularItalic.woff]]) format('woff'),
+        url([[font:theme|IndivisaTextSans-RegularItalic.woff2]]) format('woff2'),
+        url([[font:theme|IndivisaTextSans-RegularItalic.ttf]]) format('truetype'),
+        url([[font:theme|IndivisaTextSans-RegularItalic.svg]]) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

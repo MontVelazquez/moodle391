@@ -1,0 +1,84 @@
+// Post SCSS for the theme.
+@import "login";
+@import "simple-line-icons";
+
+#navbar-logo{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    display: block;
+    background: #232a42;
+    left: 5px;
+    top:0;
+    width: 285px;
+    margin: 0 -5px;
+    img {
+        width: 50%;
+        padding: 5px;
+    }
+
+    
+}
+
+$navbar-height: 100px !default;
+#nav-drawer{
+    background: #232a42;
+    height: calc(100% - #{$navbar-height} - 50px - 50px) ;
+    top: 100px;
+    overflow-y: auto;
+}
+#nav-drawer-header{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    display: block;
+    left: 5px;
+    top:50px;
+    width: 285px;
+    margin: 0 -5px;
+    background: #232a42;
+    img {
+        width: 50%;
+        padding: 5px;
+    }
+}
+#nav-drawer-footer{
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    display: block;
+    left: 5px;
+    bottom: 0;
+    margin: 0 -5px;
+    width: 285px;
+    background: #232a42;
+
+    #icones{
+        .footer-icon {
+            border-radius: 2px;
+            color: #fff;
+            display: block;
+            float: left;
+            font-size: 1.2em;
+            height: 1.2em;
+            line-height: 1.8em;
+            margin: 0 0.2em 0.4em;
+            text-align: center;
+            width: 1.3em;
+            text-shadow: none;
+            background-repeat: no-repeat;
+            &.facebook{
+                background-image: url([[pix:theme|icon/ico_facebook]]);
+            }
+            &.instagram{
+                background-image: url([[pix:theme|icon/ico_instagram]]);
+            }
+            &.twitter{
+                background-image: url([[pix:theme|icon/ico_twitter]]);
+            }
+            &.whatsapp{
+                background-image: url([[pix:theme|icon/ico_whatsapp]]);
+            }
+        }
+    }
+}
