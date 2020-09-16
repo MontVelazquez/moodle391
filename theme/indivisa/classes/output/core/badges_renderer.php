@@ -753,12 +753,12 @@ class badges_renderer extends \core_badges_renderer {
 
         // New badge button.
         $htmlnew = '';
-       /* if (has_capability('moodle/badges:createbadge', $this->page->context)) {
+        if (has_capability('moodle/badges:createbadge', $this->page->context)) {
             $n['type'] = $this->page->url->get_param('type');
             $n['id'] = $this->page->url->get_param('id');
             $btn = $this->output->single_button(new moodle_url('newbadge.php', $n), get_string('newbadge', 'badges'));
             $htmlnew = $this->output->box($btn);
-        }*/
+        }
 
         $htmlpagingbar = $this->render($paging);
         $table = new html_table();
@@ -793,14 +793,13 @@ class badges_renderer extends \core_badges_renderer {
             
 
             $actions = self::print_badge_table_actions($b, $this->page->context);
-            $comentarios=html_writer::tag('div', 'I am some content to go into the string', array('class'=>'blah'));
-            $row = array($name, $status, $criteria, $awards, $actions,$comentarios);
+            $row = array($name, $status, $criteria, $awards, $actions);
             $table->data[] = $row;
         }
         $htmltable = html_writer::table($table);
         
 
-        return $htmlnew . $htmlpagingbar . $htmltable . $htmlpagingbar.'<p>hola hola</p>';
+        return $htmlnew . $htmlpagingbar . $htmltable . $htmlpagingbar;
     }
 
     /**
